@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Shop from '../../assets/shoping.png'
 import { FaSearch } from 'react-icons/fa'
 
+
 const Navbar = ({handelScroll}) => {
+
+ 
+
   return (
     <nav className='bg-white fixed top-0 left-0 right-0'>
         <div className='max-w-[1300px] mx-auto h-[14vh] px-10 pt-5'>
@@ -13,6 +17,7 @@ const Navbar = ({handelScroll}) => {
                 <span className='text-ml bg-orange-400 rounded-full px-2 py-2 flex-1 text-white'><FaSearch /></span>
                 </div>
             </div>
+            
         </div>
     </nav>
   )
